@@ -1,0 +1,24 @@
+{
+  "name": "pi-car",
+  "version": "1.0.0",
+  "description": "## 安装rpio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoshan5733/pi-car.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoshan5733/pi-car/issues"
+  },
+  "homepage": "https://github.com/xiaoshan5733/pi-car#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "rpio": "^0.9.16",
+    "socket.io": "^1.7.3"
+  }
+}
