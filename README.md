@@ -8,7 +8,7 @@ $ npm install rpio
 ````
 - 配置访问权限，使用root账号操作([启用root账号](http://blog.csdn.net/faryang/article/details/50779767))
 ````
-$ cat &gt;/etc/udev/rules.d/20-gpiomem.rules &lt;&lt;EOF
+$ cat >/etc/udev/rules.d/20-gpiomem.rules <<EOF
 SUBSYSTEM=="bcm2835-gpiomem", KERNEL=="gpiomem", GROUP="gpio", MODE="0660"
 EOF
 ````
@@ -26,4 +26,4 @@ $ npm install
 $ node app
 ````
 
-访问 http://ip:3000/ 
+访问 http://ip:3000/
