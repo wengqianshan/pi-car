@@ -1,5 +1,7 @@
 # 树莓派小车代码
 
+![](./car.gif)
+
 ## 安装rpio
 
 - 安装rpio [参考](https://www.npmjs.com/package/rpio#install)
